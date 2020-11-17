@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.container {
+    padding: 20px;
+}
+
+.wrapper {
+    border: 2px solid darkmagenta;
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+}
+
+.top-class {
+    height: 300px;
+    /* border-bottom: 2px solid darkmagenta; */
+    transition: 1s ease-in;
+    background: url(media/death.gif);
+    background-size: cover;
+}
+
+.low-class {
+    height: 300px;
+    position: relative;
+    overflow: auto;
+}
+
+.lowerbox {
+    width: 200px;
+    height: 150px;
+    background-color: darkorchid;
+    float: left;
+}
+
+.lowerbox:hover {
+    filter: blur(0.8px);
+}
