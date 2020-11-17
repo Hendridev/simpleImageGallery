@@ -13,7 +13,6 @@ var autoBck = setInterval(function() {
     canvas.style.background = "url(media/" + imageList[time] + ")";
     canvas.style.backgroundSize = "cover";
     time += 1;
-    console.log('ok');
     time == 6 ? time = 0 : "";
 }, 1000 * 5);
 
